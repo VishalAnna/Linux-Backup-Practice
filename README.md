@@ -11,9 +11,13 @@ Project Structure:
 -----------------
 LinuxBackupProject/
 ├─ src/                # Sample files (documents, images)
+
 ├─ config/             # Configuration files
+
 ├─ backup/             # Backup archives (full, incremental, text files)
+
 ├─ docs/               # Documentation (README, commands explanation, final report)
+
 └─ verification/       # Verification files to check restoration
 
 Key Commands Used:
