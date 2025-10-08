@@ -1,0 +1,5 @@
+total 16
+drwxr-xr-x 2 vishaln vishaln 4096 Oct  1 13:51 .
+drwxr-xr-x 7 vishaln vishaln 4096 Oct  1 13:57 ..
+-rw-r--r-- 1 vishaln vishaln   27 Oct  1 13:49 document1.txt
+-rw-r--r-- 1 vishaln vishaln   18 Oct  1 13:51 picture1.img

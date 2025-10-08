@@ -1,0 +1,26 @@
+1. tar -czvf backup/project_backup_full.tar.gz src/ config/
+   - Creates a compressed archive of src and config folders.
+
+
+2. find src/ config/ -name "*.txt" -exec tar -rvf backup/test_files.tar {} \;
+   - Adds all .txt files to an archive.
+
+
+3. gzip backup/text_files.tar
+   - Compresses the tar archive.
+
+
+4. rsync -av src/ config/ backup/
+   - Performs incremental backup.
+
+
+5. rm -rf src/ config/
+   - Simulates accidental data loss.
+
+
+6. tar -xzvf backup/project_backup_full.tar.gz -C ./
+   - Restores files from backup.
+
+
+7. ls -la > verification/restore_verification.txt
+   - Verifies the restoration.
